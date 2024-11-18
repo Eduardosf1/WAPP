@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(Bilder/hintergrund.jpg);
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+}
+
+.app-main {
+    max-width: 500px;
+    margin: 400px;
+    margin-left: 700px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   background-color: rgb(107, 86, 86);
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.weather-body .location-details, .weather-body .weather-status {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    .app-main {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .input-box {
+        padding: 8px;
+    }
+}
